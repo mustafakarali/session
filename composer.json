@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Eskirex\\Session\\": "src/"
+      "Eskirex\\": "src/"
     }
   }
 }
