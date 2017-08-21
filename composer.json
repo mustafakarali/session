@@ -1,21 +1,27 @@
 {
-  "repositories": [
+  "name": "eskirex/session",
+  "description": "Session Handler",
+  "keywords": [
+    "session",
+    "eskirex"
+  ],
+  "homepage": "http://www.eskirex.com",
+  "license": "MIT",
+  "authors": [
     {
-      "type": "package",
-      "package": {
-        "name": "eskirex/session",
-        "version": "1.0.0-dev",
-        "source": {
-          "url": "git://github.com/eskirex/session.git",
-          "type": "git",
-          "reference": "master"
-        },
-        "autoload": {
-          "psr-4": {
-            "Eskirex\\Session\\": "src/"
-          }
-        }
-      }
+      "name": "Can Korkmaz",
+      "email": "eskirex@gmail.com"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "config": {
+    "minimum-stability": "dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Eskirex\\Session\\": "src/"
+    }
+  }
 }
