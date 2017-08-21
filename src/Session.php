@@ -1,6 +1,6 @@
 <?php
 
-  namespace Eskirex\Session;
+  namespace Eskirex;
 
   class Session
   {
