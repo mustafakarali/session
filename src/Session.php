@@ -1,6 +1,6 @@
 <?php
 
-  namespace System\Libraries\Core;
+  namespace Eskirex\Session;
 
   class Session
   {
